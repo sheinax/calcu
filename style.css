@@ -1,0 +1,105 @@
+body{
+ 
+    background-size:cover;
+    background-position:center;
+    background-repeat:repeat;
+    font-family: Consolas, monospace;
+    background-color: rgb(138, 132, 132);
+}
+
+h2{
+    
+  padding-top: 10%;
+ 
+}
+.calc{
+    text-align:center;
+    margin: auto;
+    background-color: darkgray;
+   
+    width: 30.5%;
+    height: 700px; 
+    border-radius: 25px;
+    box-shadow: 0 5px 40px black;
+}
+.maininput{
+    margin-top:80px;
+    background-color: black;
+   
+    height: 60px; 
+    width: 89%; 
+    font-size: 50px;
+    text-align:right;
+    color: green;
+    font-weight: 00;
+    padding: 10px;
+    margin: 10px auto; 
+    border-radius: 5px;
+    pointer-events: none;
+    
+   
+    padding: 10px;
+}
+.numbtn{
+    padding: 25px 30px;
+    border-radius: 10px;
+    font-weight: 500;
+    background-color: #E1D9D1;
+    color:black;
+}
+.numbtn:hover{
+    background-color: #DCD7C8;
+    color: black;
+}
+.calbtn{
+    padding: 25px 30px;
+    border-radius: 10px;
+    font-weight: 500;
+    background-color: #2C2D2D;
+    color:white;
+    float:right;
+}
+.calbtn:hover{
+    background-color: black;
+    color: white;
+}
+.c{
+    padding: 25px 30px;
+    border-radius: 10px;
+    font-weight: 500;
+    background-color: red;
+    color:white;
+    float:right;     
+}
+.c:hover{
+    background-color: rgb(237, 45, 45);
+    
+}
+.equal{
+    padding: 25px 30px;
+    border-radius: 10px;
+    font-weight: 500;
+    background-color: #2C2D2D;
+    color:white;
+}
+.equal:hover{
+    background-color: black;
+    color: white;
+}
+
+.numbtn,
+.calbtn,
+.c,
+.equal {
+    
+    padding: 25px 30px;
+    border-radius: 15px;
+    font-weight: 500;
+    font-size: medium;
+    transition: transform 0.2s ease;
+    margin: 10px;
+}
+
+.eq{
+    width: 90%;
+}
